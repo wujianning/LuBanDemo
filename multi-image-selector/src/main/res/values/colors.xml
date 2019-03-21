@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mis_actionbar_color">#21282C</color>
+
+    <color name="mis_app_color">#339BFF</color>
+    <color name="mis_whilecolor">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="360dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recyclerview_listview_item_textview1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center|left"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="原图参数:1920*1080,1453K"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/recyclerview_listview_item_textview2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center|left"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="压缩后参数:1920*1080,145K"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/recyclerview_listview_item_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitXY" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#CCCCCC"/>
+
+</LinearLayout>
